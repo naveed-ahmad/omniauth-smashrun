@@ -3,7 +3,7 @@ require 'oj'
 
 module OmniAuth
   module Strategies
-    class Strava < OmniAuth::Strategies::OAuth2
+    class Smashrun < OmniAuth::Strategies::OAuth2
       option :name, 'smashrun'
       option :client_options, { site:          'https://api.smashrun.com',
                                 authorize_url: 'https://secure.smashrun.com/oauth2/authenticate',

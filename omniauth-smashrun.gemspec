@@ -15,17 +15,23 @@ Gem::Specification.new do |s|
   s.description = "OmniAuth strategy for Smashrun"
   s.email = "naveedahmada036@gmail.com"
   s.extra_rdoc_files = [
+    "LICENSE",
     "LICENSE.txt",
     "README.rdoc"
   ]
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
+    "LICENSE",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "lib/omniauth-smashrun.rb"
+    "lib/omniauth-smashrun.rb",
+    "lib/omniauth-smashrun/version.rb",
+    "lib/omniauth/strategies/smashrun.rb",
+    "omniauth-smashrun.gemspec"
   ]
   s.homepage = "http://github.com/naveed-ahmad/omniauth-smashrun"
   s.licenses = ["MIT"]
