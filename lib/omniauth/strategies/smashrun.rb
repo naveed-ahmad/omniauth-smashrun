@@ -46,7 +46,7 @@ module OmniAuth
       def athlete
         access_token.options[:mode]       = :query
         access_token.options[:param_name] = :access_token
-        @athlete                          ||= Oj.dump(access_token.get('/my/userinfo', { access_token: access_token.token }).body)
+        @athlete                          ||= Oj.load(access_token.get('/v1/my/userinfo', { access_token: access_token.token }).body)
       end
     
     end
