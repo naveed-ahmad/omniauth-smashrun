@@ -25,6 +25,8 @@ Register **Smashrun Strategy** in omniauth configuration file(config/initializer
 end
 ```
 
+Use [Smasrun clinet gem](https://github.com/naveed-ahmad/smashrun) for consuming smashrun api
+
 ## License
 
 [MIT License](http://www.opensource.org/licenses/mit-license.php)
