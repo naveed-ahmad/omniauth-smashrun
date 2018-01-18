@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = [
     "LICENSE",
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
     "Gemfile.lock",
     "LICENSE",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "VERSION",
     "lib/omniauth-smashrun.rb",
