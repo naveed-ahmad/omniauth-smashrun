@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/omniauth-smashrun.svg)](https://badge.fury.io/rb/omniauth-smashrun)
+
 # Omniauth::Strategies::Smashrun
 Omniauth strategy for Smashrun ( https://api.smashrun.com/v1/documentation )
 
