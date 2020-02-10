@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 source 'https://rubygems.org'
 gem 'omniauth-oauth2', '~> 1.6.0'
-gem 'oj', '~> 3.9.1'
+gem 'oj', '~> 3.10.2'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
